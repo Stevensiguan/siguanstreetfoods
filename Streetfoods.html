@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Siguans Street Foods</title>
+    <link rel="shortcut icon" type="image/png" href="images/streetlogo.png">
+    <link rel="stylesheet" href="style.css ">
+    <script src="https://kit.fontawesome.com/622c26f74c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo">STREET FOODS</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="bubbles">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+    </div>
+</div> 
+<!----------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/aboutcpback.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About the store</h1>
+                <p class="about-p">Hi! Welcome to our store. Our Street Foods are quite famous here in  our location. 
+                    The taste of our street foods are just amazing and out of the world. 
+                    No restaurant can match the taste of our street foods. 
+                    The taste is divine and street foods are very delicious.
+                    Mostly college and highschool going students are seen enjoying our street food.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Location</p>
+                    <p class="tab-links" onclick="opentab('education')">Open on</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Visit us in:</span><br>BRGY.07 MANAGANTAN ST. GUIUAN EASTERN SAMAR</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Weekdays</span><br>7:30am-6:00pm</li>
+                        <li><span>Saturday</span><br>8:00am-5:00pm</li>
+                        <li><span>Sunday</span><br>Closed</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-bubbles">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+    </div>
+</div>
+<!-----------------------services-------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Online Orders</h2>
+                <p>We take online orders only in Guiuan proper area only. We deliver it for you for free. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Customer Service</h2>
+                <p>We consistently meet our customers' expectations and we can asure you that our customer service is quick, empathetic and deliver excellent customer service.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <div class="services-bubbles">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+    </div>
+</div>
+<!---------------------portfolio--------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MENU</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/fishball.jpg">
+                <div class="layer">
+                    <h3> Fish ball</h3>
+                    <p>Cost: <br>1 peso each together with our <br> unli dipping sauce.                     
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/hotdog.jpg">
+                <div class="layer">
+                    <h3>Hotdog</h3>
+                    <p>Cost: <br>5 pesos each but only <br>20 pesos for every 5 hotdogs <br> together with our unli dipping sauce.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/kwekkwek.jpg">
+                <div class="layer">
+                    <h3> Kwek-Kwek</h3>
+                    <p>Cost: <br> 15 pesos each together with our <br> unli dipping sauce. </p>
+                </div>
+            </div>
+        </div>
+        <a  href="#"class="btn">See more</a>
+    </div>
+    <div class="portfolio-bubbles">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+    </div>
+</div>
+
+<!-----------------------contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p class="contact-gmail"><i class="fa-solid fa-paper-plane"></i>contact@siguansteven2@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>09291324495</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"> 
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="contact-bubbles">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+        <img src="images/newbubble2.png">
+        <img src="images/newbubble1.png">
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright @ Steven. Made with <i class="fa-solid fa-heart"></i> by yours truly</p>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzDGlymmiGdRrVsEGPMtlesM74f4ZrKBb45xv91bxpcdWEx_KaGwpvO68GfP937jnIKcA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
